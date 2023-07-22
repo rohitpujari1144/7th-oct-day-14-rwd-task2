@@ -1,0 +1,139 @@
+.mainContainer {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbarDiv {
+    height: 50px;
+    background-color: rgb(49 70 74)
+}
+
+.githubLogoDiv {
+    /* width: fit-content; */
+    margin-left: 10px;
+}
+
+.githubLogo {
+    color: white;
+    margin-top: 5px;
+    font-size: 220%
+}
+
+.github {
+    letter-spacing: 3px;
+    color: white;
+    font-size: 150%;
+    margin-left: 650px
+}
+
+.secondMainDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b6b6b6;
+    height: 600px;
+}
+
+.leftMainDiv {
+    border-radius: 20px;
+    width: 25%;
+    margin: 20px;
+    background-color: #5f5e5e;
+    margin-bottom: 40px;
+    margin-top: 30px
+}
+
+.rightMainDiv {
+    width: 60%;
+    margin-top: 30px
+}
+
+.searchDiv {
+    height: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    background-color: #5f5e5e;
+    color: white
+}
+
+.threeBlockMainDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px
+}
+
+.smallDiv {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #5f5e5e
+}
+
+.bottomMainDiv {
+    height: 190px;
+    width: 90%;
+    margin-top: 60px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    background-color: #5f5e5e;
+    margin-bottom: 50px
+}
+
+@media (max-width:400px) {
+    .mainContainer {
+        width: 95%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 130px;
+    }
+
+    .github {
+        letter-spacing: 3px;
+        color: white;
+        font-size: 150%;
+        margin-left: 100px
+    }
+
+    .secondMainDiv {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #b6b6b6;
+        height: 900px;
+    }
+
+    .threeBlockMainDiv {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .smallDiv {
+        margin-top: 30px;
+    }
+
+    .searchDiv {
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 80%;
+        position: static;
+        margin-left: 120px;
+        margin-right: 50px;
+    }
+}
